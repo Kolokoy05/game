@@ -1,0 +1,240 @@
+body{
+    background: rgb(32, 33, 36);
+}
+.navbars{
+     padding: 5px;
+     gap:20px;
+     padding-left: 20px;
+     margin-bottom: 20px;
+}
+.navdash{
+     display: flex;
+     position: fixed;
+}
+.navbarslist{
+     list-style: none;
+} 
+.navbarslist .menu-icons{
+     height: 30px;
+     border: transparent;
+     list-style: none;
+     color:rgb(0, 0, 0);
+}
+.navbarslist button{
+     border: transparent;
+     background: transparent;
+}
+.navbarslist .title{
+     color: rgb(255, 255, 255);
+     list-style: none;
+     text-decoration: none;
+     padding: 20px;
+     font-size: 20px;
+}
+.navbars .menu-list{
+    list-style: none;
+    color: white;
+    line-height: 50px;
+    background: rgb(10, 10, 10);
+    padding: 20px;
+    width: 150px;
+    margin-top: 60px;
+    display: none;
+    z-index: -3px ;
+    position: fixed;
+    border-radius: 10px;
+}
+.navbars .menu-list li{
+    padding: 6px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.navbars .menu-list li a{
+    color: rgb(224, 0, 0);
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.navbars  .menu-list li:hover{
+    background: white;
+    color: black;
+}
+
+.main{
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     margin-top: 50px;
+}
+.main .offergamer img{
+     width: 450px;
+     height:250px;
+}
+.main .maintext {
+     display: flex;
+     gap:10px;
+}
+.main .maintext p{
+     margin-top:10px;
+     color: rgb(253, 253, 253);
+}
+.main .maintext .avatars{
+     width: 30px;
+     height: 30px;
+     border-radius: 100px;
+}
+.main .offergamer  .offerbuttons{
+     color: white;
+     border-radius: 100px;
+     font-size: 13px;
+     height: 30px;
+     padding: 0px;
+     padding-bottom:10px;
+     text-decoration: none;
+}
+.offergamer .offerbuttons p{
+     border: 1px solid transparent;
+     padding: 5px;
+     width: 50%;
+     text-align: center;
+     border-radius: 20px;
+     background: rgb(194, 46, 46); 
+     text-decoration: none;
+}
+.offergamer .offerbuttons a{
+    text-decoration: none;
+}
+.offergamer .offerbuttons p:hover{
+    border: 1px solid transparent;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(194, 46, 46, 0.507); 
+}
+.offergamer .offerbuttons a{
+    color: rgb(243, 242, 240);
+}
+
+.maincontent .boosters{
+    border: 1px solid transparent;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+}
+
+.footer{
+    margin-top: 20px;
+    justify-content: center;
+    background: rgba(231, 59, 59, 0.377);    
+    justify-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0px;
+    bottom: 0;
+}
+.first-footer{
+    width: 100%;
+}
+.footer .socials{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: white;
+}
+.footer .socials p{
+    color:white;
+}
+.footer .socials a{
+    color:white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.footer .socials a:hover{
+    color:rgb(218, 0, 0);
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width: 980px){
+    .main .offergamer img{
+        width: 350px;
+        height:150px;
+    }
+}
+@media screen and (max-width: 800px){
+    .main .offergamer img{
+        width: 250px;
+        height:150px;
+    }
+    .maincontent .boosters{
+        border: 1px solid transparent;
+        width: 80%;
+        height: 100px;
+        margin: auto;
+    }
+    .offergamer .offerbuttons p{
+        border: 1px solid transparent;
+        padding: 5px;
+        width: 70%;
+        text-align: center;
+        border-radius: 20px;
+        background: rgb(194, 46, 46); 
+        text-decoration: none;
+   }
+   .offergamer .offerbuttons p:hover{
+       border: 1px solid transparent;
+       padding: 5px;
+       width: 70%;
+       text-align: center;
+       border-radius: 20px;
+       background: rgba(194, 46, 46, 0.507); 
+   }
+}
+@media screen and (max-width: 550px){
+    .main .offergamer img{
+        width: 190px;
+        height:100px;
+    }
+    .maincontent .boosters{
+        border: 1px solid transparent;
+        width: 95%;
+        height: 100px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 500px){
+    .navbars{
+        padding: 5px;
+        gap:20px;
+        padding-left: 5px;
+        margin-top: 5px;
+    }
+    .main .offergamer{
+        margin: auto;
+        justify-content: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .main .offergamer img{
+        width: 100%;
+        height:250px;
+    }
+    .main{
+        display: inline;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    .maincontent{
+        text-align: center;
+    }
+}

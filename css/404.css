@@ -1,0 +1,43 @@
+.notfound{
+     text-align: center;
+     font-size: 25px;
+     color:grey;
+     padding-top: 220px;
+     margin-bottom: 220px;
+}
+.notfound h1{
+    font-size: 25px;
+}
+@media screen and (max-width: 980px){
+    .notfound{
+        font-size: 30px;
+    }
+    .notfound h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 980px){
+    .notfound{
+        font-size: 25px;
+    }
+    .notfound h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .notfound{
+        font-size: 20px;
+    }
+    .notfound h1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 430px){
+    .notfound{
+        font-size: 20px;
+    }
+    .notfound h1{
+        font-size: 20px;
+    }
+}
